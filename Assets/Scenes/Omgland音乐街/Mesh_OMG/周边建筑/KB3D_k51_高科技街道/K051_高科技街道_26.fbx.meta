@@ -3,7 +3,27 @@ guid: 85c39324f5aeefb4782c70eb12dfd5cb
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalGrey
+    second: {fileID: 2100000, guid: 63aff3ffbb1a04942a545a8c53876836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalYellow
+    second: {fileID: 2100000, guid: 6110805363687104eab8ce7029988ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_PlasticWhite
+    second: {fileID: 2100000, guid: bad56c487c8900245a2830983e48dcc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u96F6\u65F6\u6D77\u62A5\u56FE"
+    second: {fileID: 2100000, guid: 569c25c762dacd44bafe7eaca7f90ba7, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -36,7 +56,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

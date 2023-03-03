@@ -3,12 +3,132 @@ guid: 0bda84edad2ce5c47bf8bc1994d1d5cd
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_AtlasDGBannerA
+    second: {fileID: 2100000, guid: 5b6f977ec6ded7f43856c598da9a62ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_AtlasDGBannerB
+    second: {fileID: 2100000, guid: eac345370e70b7443b107f8fc790cb58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_AtlasDetails
+    second: {fileID: 2100000, guid: 87b2f5804837aed4fb5593895d5d4cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_AtlasHoloC
+    second: {fileID: 2100000, guid: cb724479bf98f6a43bd97b86a68c6fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_ConcreteLeaks
+    second: {fileID: 2100000, guid: a59f35c66e080714ba712d136cc13a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_ConcretePaintBlue
+    second: {fileID: 2100000, guid: 3503ec16981ffb54f8270db71901f7b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_ConcretePaintYellow
+    second: {fileID: 2100000, guid: 72cb58ed970ef0640aed2ebe6ed51b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_FloorRoofTopA
+    second: {fileID: 2100000, guid: 344eb8b7ed603ec42949923275cbf763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_GlassCyanC
+    second: {fileID: 2100000, guid: c6491ae1de0285844a2d1032731621da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_LightsC
+    second: {fileID: 2100000, guid: 870bc9b539fec064a9bc5e4514f30e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelGalvanGray
+    second: {fileID: 2100000, guid: 4433916470f36de4b87e355723c40bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelOld
+    second: {fileID: 2100000, guid: fe335c7eb52261742ad4ce84c5fe226b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelBright
+    second: {fileID: 2100000, guid: b3ab0c222eec4944d90de2389e9414b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelDarkDirt
+    second: {fileID: 2100000, guid: 29c751ac8bccc4848b584a4298549290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelGray
+    second: {fileID: 2100000, guid: 8e5ec49a47cdef84587d58be77fb8e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelGrayB
+    second: {fileID: 2100000, guid: c115506490db55e419c61dc525765f99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelPaintBeige
+    second: {fileID: 2100000, guid: 3e161fc4511f8654b93910ff8b5167cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelPaintBlue
+    second: {fileID: 2100000, guid: a2b2d37188d67444aa76e077bbe1df67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelPaintYellow
+    second: {fileID: 2100000, guid: cc36394d15b427843ae85eb9a4a422c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelShiny
+    second: {fileID: 2100000, guid: d66276364475e5d41a8246372c1a5d68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelWhiteD
+    second: {fileID: 2100000, guid: a581d85305429144bbb83e2150e00407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_SteelPanelWhiteN
+    second: {fileID: 2100000, guid: f9c929a4de8a93641b98e95b45c01e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_StreetTilesC
+    second: {fileID: 2100000, guid: dec986c4b2da48d49911da7b289511ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_CBP_WireTrim
+    second: {fileID: 2100000, guid: 0ad7017dc1268fc47aeeec2b7f69e4ec, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -36,7 +156,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -45,7 +165,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

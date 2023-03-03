@@ -8,42 +8,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_LightBlue
-    second: {fileID: 2100000, guid: b71dbb34df8524b4087702549bbb2da4, type: 2}
+    second: {fileID: 2100000, guid: 05c25055dffd783429844007dc986559, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_MetalDarkGrey
-    second: {fileID: 2100000, guid: 6f94c3507eb0e014dbb17649d7b1e61c, type: 2}
+    second: {fileID: 2100000, guid: 066601d1903488b418f4ae9e5601e7c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_MetalGrey
-    second: {fileID: 2100000, guid: 12541f84126288b41b442d516e117cc0, type: 2}
+    second: {fileID: 2100000, guid: 63aff3ffbb1a04942a545a8c53876836, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_MetalLight
-    second: {fileID: 2100000, guid: 219feab1d642d4d4880824da1dec671a, type: 2}
+    second: {fileID: 2100000, guid: cbdf4d781060d894ab0a2ccc7b96ffca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_MetalWhite
-    second: {fileID: 2100000, guid: 2c312f3e5209e1d4aa544b62bab1f6ea, type: 2}
+    second: {fileID: 2100000, guid: 4b6641da767077f4f99ad4c7e5941c2f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_MetalYellow
-    second: {fileID: 2100000, guid: ba15cf0d616a50d4ba52cd7dbc206ee5, type: 2}
+    second: {fileID: 2100000, guid: 6110805363687104eab8ce7029988ffe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_PlasticWhite
-    second: {fileID: 2100000, guid: 622f1db4a496a0b4781cb44cf70c45a0, type: 2}
+    second: {fileID: 2100000, guid: bad56c487c8900245a2830983e48dcc1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KB3D_HTS_RubberGray
-    second: {fileID: 2100000, guid: be2b3b5052a274e48832d8d31eb44863, type: 2}
+    second: {fileID: 2100000, guid: 24c5be22b15f04442b0d1f9c3f9ae43a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -76,7 +76,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

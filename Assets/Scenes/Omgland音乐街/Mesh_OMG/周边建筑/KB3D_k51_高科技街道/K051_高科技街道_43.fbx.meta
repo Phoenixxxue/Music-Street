@@ -3,7 +3,47 @@ guid: 3a00b5c7cdc44cb408e2881ba0469d22
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_LightBlue
+    second: {fileID: 2100000, guid: 05c25055dffd783429844007dc986559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalDarkGrey
+    second: {fileID: 2100000, guid: 066601d1903488b418f4ae9e5601e7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalGrey
+    second: {fileID: 2100000, guid: 63aff3ffbb1a04942a545a8c53876836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalLight
+    second: {fileID: 2100000, guid: cbdf4d781060d894ab0a2ccc7b96ffca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalWhite
+    second: {fileID: 2100000, guid: 4b6641da767077f4f99ad4c7e5941c2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalYellow
+    second: {fileID: 2100000, guid: 6110805363687104eab8ce7029988ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_PlasticWhite
+    second: {fileID: 2100000, guid: bad56c487c8900245a2830983e48dcc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_RubberGray
+    second: {fileID: 2100000, guid: 24c5be22b15f04442b0d1f9c3f9ae43a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -36,7 +76,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1

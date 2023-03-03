@@ -3,7 +3,47 @@ guid: bff080fbde403994c97ba25b24cdb174
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_GlassBlue
+    second: {fileID: 2100000, guid: e427b0856e0a39e48957f332bbd3b6a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_HoloInfoA
+    second: {fileID: 2100000, guid: 1ad2ba19f9960154cb0f258a2914df22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_HoloPlanet
+    second: {fileID: 2100000, guid: 4398417bad14ee44894d7bc0c0bc0292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_LightYellow
+    second: {fileID: 2100000, guid: a7b2b39a907dda84da57481cd5e19971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalGrey
+    second: {fileID: 2100000, guid: 63aff3ffbb1a04942a545a8c53876836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalLight
+    second: {fileID: 2100000, guid: cbdf4d781060d894ab0a2ccc7b96ffca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_MetalYellow
+    second: {fileID: 2100000, guid: 6110805363687104eab8ce7029988ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KB3D_HTS_PlasticWhite
+    second: {fileID: 2100000, guid: bad56c487c8900245a2830983e48dcc1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -36,7 +76,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
