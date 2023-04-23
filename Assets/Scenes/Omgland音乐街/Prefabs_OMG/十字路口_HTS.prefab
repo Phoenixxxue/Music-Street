@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6414643977849437490}
   - component: {fileID: 8850575123943602764}
   - component: {fileID: 843450103517577492}
+  - component: {fileID: 1380154649759887658}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampH
   m_TagString: Untagged
@@ -84,6 +85,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1380154649759887658
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213528917788844197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7342367463584965632, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &579659765464894739
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +110,7 @@ GameObject:
   - component: {fileID: 5917736059783757228}
   - component: {fileID: 3661501452186249543}
   - component: {fileID: 201879252512660616}
+  - component: {fileID: 3369139254506151085}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampF
   m_TagString: Untagged
@@ -168,6 +184,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3369139254506151085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579659765464894739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6431854837347332662, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &896569396312377930
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +209,7 @@ GameObject:
   - component: {fileID: 3863071888803841124}
   - component: {fileID: 2730205909674167694}
   - component: {fileID: 1569111122005734378}
+  - component: {fileID: 7568966658524306172}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampA
   m_TagString: Untagged
@@ -252,6 +283,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7568966658524306172
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896569396312377930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1142693937698870643, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &1350472580941010182
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +308,7 @@ GameObject:
   - component: {fileID: 4545851745520511873}
   - component: {fileID: 4421590426148668955}
   - component: {fileID: 1636288310043476052}
+  - component: {fileID: 7198095957721229976}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampC
   m_TagString: Untagged
@@ -336,6 +382,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7198095957721229976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350472580941010182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6495984039219970097, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &1802125606890573265
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +407,7 @@ GameObject:
   - component: {fileID: 1166555269069473407}
   - component: {fileID: 9074995734003226131}
   - component: {fileID: 7987913856146729545}
+  - component: {fileID: 3084341778080679338}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampE
   m_TagString: Untagged
@@ -420,6 +481,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3084341778080679338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802125606890573265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8404803273743444194, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &2017130500988885561
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +506,7 @@ GameObject:
   - component: {fileID: 1751113108943478975}
   - component: {fileID: 4722749537632537841}
   - component: {fileID: 2962235292429939564}
+  - component: {fileID: 7774497296782643418}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampG
   m_TagString: Untagged
@@ -504,6 +580,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7774497296782643418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017130500988885561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8665508570114228000, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &2082390324741286762
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +605,7 @@ GameObject:
   - component: {fileID: 4279662441411452044}
   - component: {fileID: 790469006255479872}
   - component: {fileID: 50923994964763900}
+  - component: {fileID: 4440974927110530116}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_Main
   m_TagString: Untagged
@@ -587,6 +678,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4440974927110530116
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082390324741286762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9121325873032364679, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &3541879645409205889
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +703,7 @@ GameObject:
   - component: {fileID: 9134921279191071777}
   - component: {fileID: 6242338569156179675}
   - component: {fileID: 1980971463957021399}
+  - component: {fileID: 6359301804955387534}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampD
   m_TagString: Untagged
@@ -671,6 +777,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6359301804955387534
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3541879645409205889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6153100444887272598, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &5454123808118813201
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +802,7 @@ GameObject:
   - component: {fileID: 3293893062119696562}
   - component: {fileID: 4367161451027405783}
   - component: {fileID: 7347529863921434505}
+  - component: {fileID: 6574425418503151866}
   m_Layer: 0
   m_Name: KB3D_HTS_Road_F_LampB
   m_TagString: Untagged
@@ -755,6 +876,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6574425418503151866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5454123808118813201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6228444522677965682, guid: 3a00b5c7cdc44cb408e2881ba0469d22, type: 3}
 --- !u!1 &5963984242785656607
 GameObject:
   m_ObjectHideFlags: 0
