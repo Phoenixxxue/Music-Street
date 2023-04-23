@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: "Assets/Scenes/Omgland\u97F3\u4E50\u8857/Scenes_OMG/Omgland_\u97F3\u4E50\u8857\u533A.unity"
+    guid: dfca8eb64a69d074aa2249449a0b99fd
   m_configObjects: {}
