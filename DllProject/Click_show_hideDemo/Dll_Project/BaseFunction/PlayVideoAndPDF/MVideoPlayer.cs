@@ -30,6 +30,21 @@ namespace Dll_Project.PlayVideo
             videoPlayer.url = url;
             videoPlayer.Play();
         }
+
+        public void PlayNewVideo(VideoPlayer videoPlayer, string url, Material material)
+        {
+            if (videoPlayer == null)
+                return;
+            if (string.IsNullOrEmpty(url) || !File.Exists(url))
+                return;
+            DisposeVideoPlayer(videoPlayer);
+
+            if (videoPlayer.targetTexture != null)
+                material.SetTexture("_MainTex", videoPlayer.targetTexture);
+
+            videoPlayer.url = url;
+            videoPlayer.Play();
+        }
         public void PlayVideo(VideoPlayer videoPlayer)
         {
             if (videoPlayer == null || videoPlayer.url == null)

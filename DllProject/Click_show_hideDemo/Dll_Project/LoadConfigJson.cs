@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine.Networking;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Dll_Project
 {
@@ -12,11 +13,25 @@ namespace Dll_Project
     {
         public static LoadConfigJson Instance;
 
-        string JsonPath;
+        public string JsonPath;
         /// <summary>
         /// 下载下来的主要Json类
         /// </summary>
         public JsonData mainJsonData;
+        public JsonData MainJsonData
+        {
+            get
+            {
+                return mainJsonData["data"]["dataContent"];
+            }
+        }
+        public JsonData CardMainJsonData
+        {
+            get
+            {
+                return mainJsonData["data"];
+            }
+        }
         /// <summary>
         /// 下载完成回调事件
         /// </summary>
@@ -28,17 +43,19 @@ namespace Dll_Project
         public override void Init()
         {
             //  Debug.Log("LoadConfigjson");
-            JsonPath = "http://oss1.vswork.vip/2022/08/TengXunYun/MeetingRoomInfo.json";
+            JsonPath = "https://s.vswork.space/space/525b789c-390b-4277-a6fb-e8bf57b13158";
         }
         public override void Start()
         {
+            Debug.Log("LoadConfigJson  Start");
             if (string.IsNullOrEmpty(mStaticThings.I.nowRoomActionAPI))
             {
-                BaseMono.StartCoroutine(LoadIniConfigFile(JsonPath, 0));
+                  BaseMono.StartCoroutine(LoadIniConfigFile(JsonPath, 0));
             }
             else
             {
-                BaseMono.StartCoroutine(LoadIniConfigFile(mStaticThings.I.nowRoomActionAPI, 0));
+                 BaseMono.StartCoroutine(LoadIniConfigFile(mStaticThings.I.nowRoomActionAPI, 0));
+
             }
         }
         public override void Awake()
@@ -55,11 +72,15 @@ namespace Dll_Project
         IEnumerator LoadIniConfigFile(string mPath, float delayTime = 0)
         {
             yield return new WaitForSeconds(delayTime);
-            //if (!mPath.StartsWith("http"))
-            //{
-            //    yield break;
-            //}
+            if (!mPath.StartsWith("http"))
+            {
+                yield break;
+            }
+            mPath += "/data";
             var uwr = UnityWebRequest.Get(mPath);
+            uwr.SetRequestHeader("apikey", mStaticThings.apikey);
+            uwr.SetRequestHeader("apitoken", mStaticThings.apitoken);
+            uwr.SetRequestHeader("version", "2");
             yield return uwr.SendWebRequest();
             if (!string.IsNullOrEmpty(uwr.error))
             {
@@ -68,17 +89,11 @@ namespace Dll_Project
             }
             else
             {
-                DataCollectJson(uwr.downloadHandler.text);
                 mainJsonData = JsonMapper.ToObject(uwr.downloadHandler.text);
-                Debug.Log(uwr.downloadHandler.text);
+                //Debug.LogError(uwr.downloadHandler.text);
                 if (LoadFinishAction != null)
                 {
                     LoadFinishAction();
-                }
-                yield return new WaitForSeconds(1);
-                if (LoadConfigFinishAction != null)
-                {
-                    LoadConfigFinishAction();
                 }
 
                 uwr.Dispose();
@@ -126,6 +141,12 @@ namespace Dll_Project
         {
             T data = JsonMapper.ToObject<T>(content);
             return data;
+        }
+        class AvatarInfo
+        {
+            public string id;
+            public string name;
+            public string mark;
         }
     }
 }
