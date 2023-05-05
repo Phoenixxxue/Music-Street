@@ -25,7 +25,6 @@ namespace Dll_Project.MusicStreet
             for (int i = 0; i < ButtonList.Length; i++)
             {
                ButtonList[i] = TeleUI.GetChild(0).GetChild(i).gameObject;
-               Debug.Log(ButtonList[i].name);
             }
             
         }
@@ -51,33 +50,11 @@ namespace Dll_Project.MusicStreet
             ShowUI.GetComponent<Button>().onClick.AddListener(() =>
             {
                 TeleUI.gameObject.SetActive(true);
-                Debug.LogError("--");
             });
             TeleUI.Find("CancelButton").GetComponent<Button>().onClick.AddListener(() =>
             {
                 TeleUI.gameObject.SetActive(false);
             });
         }
-
-        //public override void OnDisable()
-        //{
-        //    for (int i = 0; i < ButtonList.Length; i++)
-        //    {
-        //        int temp = i;
-        //        ButtonList[i].GetComponent<Button>().onClick.RemoveListener(() =>
-        //        {
-        //            Debug.Log(temp);
-        //            if (mStaticThings.I.isAdmin || mStaticThings.I.sadmin)
-        //            {
-        //                MessageDispatcher.SendMessage(true, VrDispMessageType.AllPlaceTo.ToString(), ButtonList[temp].name, 0);
-        //            }
-        //            else
-        //            {
-        //                MessageDispatcher.SendMessage(false, VrDispMessageType.AllPlaceTo.ToString(), ButtonList[temp].name, 0);
-        //            }
-        //        });
-        //    }
-        //}
-       
     }
 }
